@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+  line-height: 1.6;
+}
+
+.profile {
+  display: flex;
+  padding: 50px;
+  align-items: flex-start;
+  background-color: rgb(238, 236, 236);
+}
+
+.avatar {
+  margin-right: 30px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social-icon img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.description {
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.description h3 {
+  margin: 0 50px;
+  border-bottom: 2px solid silver;
+  background-color: transparent;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.description p {
+  margin: 15px 50px 0px 50px;
+  font-size: 18px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 0 70px;
+  font-size: 20px;
+}
+
+.item {
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.list-skill {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.list-skill h3 {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: normal;
+  border: 0px;
+}
+
+.list-skill li {
+  font-size: 18px;
+}
+
+.list-skill div {
+  border: 1px solid rgb(227, 213, 213);
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  width: calc(33.33% - 15px);
+}
+
+.list-skill div img {
+  width: 450px;
+  height: 250px;
+}
+
+.list-skill div h4 {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.item-project {
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+  background-color: rgb(9, 122, 163);
+  width: calc(33.33% - 20px);
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.list-project {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.description h3:hover {
+  color: rgb(0, 162, 0);
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(238, 236, 236);
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer a {
+  font-weight: bold;
+  color: rgb(0, 162, 0);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: red;
+}
